@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/mark-hatch/.nvm/versions/node/v12.13.1/bin/node /Users/mark-hatch/.nvm/versions/node/v12.13.1/bin/yarn init
+
+PATH: 
+  /Users/mark-hatch/.nvm/versions/node/v12.13.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Applications/Privileges.app/Contents/Resources:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/mark-hatch/.nvm/versions/node/v12.13.1/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/mark-hatch/.nvm/versions/node/v12.13.1/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:887:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1153:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
