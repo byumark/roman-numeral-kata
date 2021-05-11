@@ -8,10 +8,10 @@ const lookup = [
   [1, 'I'],
 ]
 
-function arabicToRoman(number) {
-  if (number === 0) return ''
-  const [arabic, roman] = lookup.find(x => x[0] <= number)
-  return roman + arabicToRoman(number - arabic)
+function arabicToRoman(arabic) {
+  if (arabic === 0) return ''
+  const [arabicConversion, romanConversion] = lookup.find(x => x[0] <= arabic)
+  return romanConversion + arabicToRoman(arabic - arabicConversion)
 }
 
 module.exports = {
