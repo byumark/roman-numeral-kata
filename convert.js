@@ -1,4 +1,4 @@
-function arabicToRoman(number) {}
+function arabicToRoman(arabic) {}
 
 module.exports = {
   arabicToRoman,
